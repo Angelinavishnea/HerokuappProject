@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class JavaScriptAlerts extends TestBase {
+public class JSAlertsTests extends TestBase {
 
     AlertWindow alerts;
 
