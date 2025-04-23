@@ -1,5 +1,6 @@
 package com.demoqa.core;
 
+import com.demoqa.pages.windows.AlertWindow;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import java.time.Duration;
 
 public class TestBase {
     public WebDriver driver;
+
 
     @BeforeEach
     public void init() {

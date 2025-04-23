@@ -56,4 +56,6 @@ public class BaseFunctions {
 
     }
 
+    public boolean isContainsText(String text, WebElement element) {
+        return element.getText().contains(text);}
 }
